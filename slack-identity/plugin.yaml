@@ -1,0 +1,4 @@
+name: slack-identity
+version: 0.1.0
+description: "Per-bot Slack identity on the shared app: posts into a routed profile's channel carry that profile's name and avatar (chat:write.customize username/icon_url)."
+author: "BurntBot"
