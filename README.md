@@ -5,7 +5,9 @@ Public avatar images the Slack gateways send as `icon_url` for each bot profile,
 
 Public by necessity: Slack fetches `icon_url` anonymously.
 
-- `<profile>.png`: avatar for that profile (burntkeeper, burntscout, burntsentry, burntdev, burntlibrarian).
+- `<profile>.png`: 512px avatar for that profile (burntbot, burntsentry, burntscout, burntkeeper, burntdev,
+  burntlibrarian, crucible). One family: the black armored robot on the orange lava backdrop, one robot color per bot
+  (sentry red, scout green, keeper blue, dev yellow, librarian purple; burntbot keeps the original orange).
 - `slack-identity/`: Hermes plugin. Copy to `<HERMES_HOME>/plugins/slack-identity`, then
   `hermes plugins enable slack-identity`. Needs the Slack app scope `chat:write.customize`.
   Config:
